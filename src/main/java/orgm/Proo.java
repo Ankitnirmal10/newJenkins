@@ -20,7 +20,7 @@ private static WebDriver driver;
 	@BeforeMethod
 	public void lauch() throws InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Anmol Bamola\\Downloads\\chromedriver_win32 (1)//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\Users\Ankit Farhan\Downloads\chromedriver_win32 (1)//chromedriver.exe");
 		 driver=new ChromeDriver();
 		 driver.get("https://mathsolver.microsoft.com/en");
 		  driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
